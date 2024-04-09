@@ -6,7 +6,6 @@ import icon from './components/assets/dribbble-svgrepo-com.svg';
 import icon2 from './components/assets/email_873371.svg';
 import { IoBriefcaseOutline } from "react-icons/io5";
 import { useNavigate } from 'react-router-dom'; 
-const avatarUrl = sessionStorage.getItem('userAvatar') || 'default-avatar-url';
 
 
 const LastPage = () => {
